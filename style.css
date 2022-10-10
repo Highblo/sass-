@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  padding: 10px;
+  background-color: #0bd;
+  text-align: center;
+}
+nav a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.item {
+  background-color: tomato;
+  display: flex;
+  justify-content: space-around;
+}
+.item-box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  transition: all 0.3s;
+}
+.item-box:hover {
+  background-color: greenyellow;
+}
+/*# sourceMappingURL=style.css.map */
